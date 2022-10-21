@@ -2,6 +2,6 @@ package helpers
 
 import "fmt"
 
-func HelloWorld(name string) string {
+func HelloTo(name string) string {
 	return fmt.Sprintf("Hello %s", name)
 }
